@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(270deg, rgb(223, 219, 219), rgb(133, 133, 133));
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+input{
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 25px;
+    min-width: 300px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+input:focus{
+    outline:none;
+}
+
+.weather{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.weather h2{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
